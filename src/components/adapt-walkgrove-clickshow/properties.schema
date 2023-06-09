@@ -33,20 +33,96 @@
     "_layoutType": {
       "type": "string",
       "required": true,
-      "default": "image",
+      "default": "image-text",
       "inputType": "Text",
-      "validators": [],
+      "validators": ["required"],
+      "inputType": {
+        "type": "Select",
+        "options": [
+          "image-text",
+          "text-image",
+          "image",
+          "text"
+        ]
+      },
+      "title": "Item Layout",
       "help": "This is the layout setting - using images or text",
       "translatable": false
     },
-    "_flexLayout": {
+    "_layoutPosition": {
       "type": "string",
       "required": true,
       "default": "row",
-      "inputType": "Text",
-      "validators": [],
-      "help": "This is the display layout setting - columns or row",
+      "validators": ["required"],
+      "inputType": {
+        "type": "Select",
+        "options": [
+          "column",
+          "row"
+        ]
+      },
+      "title": "Item Layout Position",
+      "help": "This is the display layout position setting - column or row",
       "translatable": false
+    },
+    "_styling": {
+      "type": "array",
+      "required": false,
+      "title": "Styling",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "_left-font-color": {
+            "title": "Left Font colour",
+            "type": "string",
+            "required": false,
+            "inputType": "ColourPicker",
+            "default": "transparent",
+            "help": "Left item font colour."
+          },
+          "_left-background-color": {
+            "title": "Left Background colour",
+            "type": "string",
+            "required": false,
+            "inputType": "ColourPicker",
+            "default": "transparent",
+            "help": "Left item background colour."
+          },
+          "_left-padding": {
+            "type": "string",
+            "required": false,
+            "default": "0rem",
+            "inputType": "Text",
+            "title": "Spacing around the text",
+            "help": "Spacing around the left-hand text i.e. in rem"
+          },
+          "right-font-color": {
+            "title": "Right Font colour",
+            "type": "string",
+            "required": false,
+            "inputType": "ColourPicker",
+            "default": "#FFFFFF",
+            "help": "Right item font colour."
+          },
+          "right-background-color": {
+            "title": "Right Background colour",
+            "type": "string",
+            "required": false,
+            "inputType": "ColourPicker",
+            "default": "#000000",
+            "help": "Right item background colour."
+          },
+          "_right-padding": {
+            "type": "string",
+            "required": false,
+            "default": "1rem",
+            "inputType": "Text",
+            "title": "Spacing around the right-hand text",
+            "help": "Spacing around the text i.e. in rem"
+          }
+        }
+      }
     },
     "_items": {
       "type": "array",
@@ -59,8 +135,8 @@
           "left": {
             "type": "string",
             "required": true,
-            "default": "",
-            "title": "left element",
+            "default": "https://via.placeholder.com/250x150",
+            "title": "Left item",
             "inputType": "Text",
             "validators": [],
             "help": "",
@@ -68,9 +144,9 @@
           },
           "leftAlt": {
             "type": "string",
-            "required": true,
+            "required": false,
             "default": "",
-            "title": "left element alt information",
+            "title": "Left Alt description",
             "inputType": "Text",
             "validators": [],
             "help": "",

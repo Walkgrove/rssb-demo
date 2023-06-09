@@ -14,15 +14,17 @@
 @lightGrey: #f4f4f4; //nav, background
 @almostBlack: #060606;
 
-@walkgrove-blue: #007fad;
-@walkgrove-orange: #d34509;
-@walkgrove-green: #1d8749;
-@walkgrove-pink: #db0084;
-@walkgrove-steel-blue: #567483;
 
-@primary-colour: @walkgrove-pink;
-@secondary-colour: @walkgrove-blue;
-@tertiary-colour: @lightGrey; //@walkgrove-steel-blue;
+@rssb-cloud: #F0F9FC;
+@rssb-purple: #4F13E1;
+@rssb-turquoise: #10B6BE;
+
+@rssb-deep-purple: #21214F;
+@rssb-grey: #E1EAE8;
+
+@primary-colour: @rssb-purple;
+@secondary-colour: @rssb-turquoise;
+@tertiary-colour: @rssb-grey; 
 
 @primary-colour-visited:#db00849d; //primary with '9d'
 
@@ -42,15 +44,15 @@
 // ELEMENTS 
 // --------------------------------------------------
 
-@nav-bar: @lightGrey;
-@nav-bar-icons: @almostBlack;
-@nav-bar-hover: @secondary-colour;
-@nav-bar-icons-hover: @black;
+@nav-bar: @rssb-cloud;
+@nav-bar-icons: @rssb-deep-purple;
+@nav-bar-hover: @rssb-cloud;
+@nav-bar-icons-hover: @rssb-purple;
 
-@page-footer-background: @primary-colour;
-@page-footer-link: @white;
-@footer-button-background: @white;
-@footer-button-label: @primary-colour;
+@page-footer-background: @rssb-purple;
+@page-footer-link: @rssb-cloud;
+@footer-button-background: @rssb-purple;
+@footer-button-label: @rssb-cloud;
 
 @bubble-background: @secondary-colour;
 @bubble-content: @black;
@@ -102,16 +104,16 @@
 // --------------------------------------------------
 // Items - components
 // --------------------------------------------------
-@item-color: @secondary-colour;
-@item-color-inverted: @white;
+@item-color: @rssb-purple;
+@item-color-inverted: @rssb-cloud;
 
-@item-color-hover: darken(@item-color, 10%);
-@item-color-inverted-hover: @item-color-inverted;
+@item-color-hover: @rssb-turquoise;
+@item-color-inverted-hover: @rssb-deep-purple;
 
-@item-color-selected: darken(@item-color, 20%);
-@item-color-inverted-selected: @item-color-inverted;
-@item-visited: @lightGrey;
-@item-visited-inverted: @black;
+@item-color-selected: @item-color-hover;
+@item-color-inverted-selected: @item-color-inverted-hover;
+@item-visited: @item-color-hover;
+@item-visited-inverted: @item-color-inverted-hover;
 
 // --------------------------------------------------
 
@@ -125,11 +127,11 @@
 // --------------------------------------------------
 // Buttons
 // --------------------------------------------------
-@btn-color: @primary-colour;
-@btn-color-inverted: @white;
+@btn-color: @item-color;
+@btn-color-inverted: @item-color-inverted;
 
-@btn-color-hover: @almostBlack;
-@btn-color-inverted-hover: @btn-color-inverted;
+@btn-color-hover: @item-color-hover;
+@btn-color-inverted-hover: @item-color-inverted-hover;
 // --------------------------------------------------
 
 // --------------------------------------------------
@@ -190,14 +192,14 @@
 // --------------------------------------------------
 // Navigation
 // --------------------------------------------------
-@nav: @primary-colour;
-@nav-inverted: @grey;
+@nav: @rssb-cloud;
+@nav-inverted: @rssb-deep-purple;
 
 @nav-icon: @nav-inverted;
 @nav-icon-inverted: @nav;
 
-@nav-icon-hover: darken(@nav-icon, 10%);
-@nav-icon-inverted-hover: @nav-icon-inverted;
+@nav-icon-hover: @rssb-cloud;
+@nav-icon-inverted-hover: @rssb-purple;
 
 @nav-progress: @nav-icon-inverted;
 @nav-progress-inverted: @nav-icon;

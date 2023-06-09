@@ -1,9 +1,9 @@
 <div class="component__inner clickshow__inner">
   {{> component this}} 
 
-  <div class="clickshow__main {{#if_eq _flexLayout "column"}}column{{/if_eq}}">
+  <div class="clickshow__main {{#if_eq _layoutPosition "column"}}column{{/if_eq}}">
   {{#each _items}}
-    <div class="clickshow__widget {{#if_eq ../_flexLayout "column"}}column{{/if_eq}}" data-index="{{@index}}">
+    <div class="clickshow__widget {{#if_eq ../_layoutPosition "column"}}column{{/if_eq}}" data-index="{{@index}}">
       <div class="clickshow__item left js-clickshow-item {{#if_eq ../_flexLayout "column"}}column{{/if_eq}}">
         <button role="button" aria-pressed="false" tabindex="0">
           {{#if_eq ../_layoutType "image"}}
@@ -13,14 +13,14 @@
           <img src="{{{left}}}" aria-label="{{{leftAlt}}}"/>
           {{/if_eq}}
           {{#if_eq ../_layoutType "text"}}
-          <div class="text">{{{left}}}</div>
+          <div class="text" style="color: {{../_styling._left-font-color}}; background-color: {{../_styling._left-background-color}}; padding: {{_styling._left-padding}};">{{{left}}}</div>
           {{/if_eq}}
           {{#if_eq ../_layoutType "text-image"}}
-          <div class="text">{{{left}}}</div>
+          <div class="text" style="color: {{../_styling._left-font-color}}; background-color: {{../_styling._left-background-color}}; padding: {{_styling._left-padding}};">{{{left}}}</div>
           {{/if_eq}}
         </button>
       </div>
-       <div class="clickshow__item right {{#if_eq ../_flexLayout "column"}}column{{/if_eq}}">
+       <div class="clickshow__item right {{#if_eq ../_layoutPosition "column"}}column{{/if_eq}}">
         {{#if_eq ../_layoutType "image"}}
         <img src="{{{right}}}" aria-label="{{{rightAlt}}}" />
         {{/if_eq}}
@@ -28,10 +28,10 @@
         <img src="{{{right}}}" aria-label="{{{rightAlt}}}" />
         {{/if_eq}}
         {{#if_eq ../_layoutType "text"}}
-        <div class="text">{{{right}}}</div>
+        <div class="text" style="color: {{../_styling._right-font-color}}; background-color: {{../_styling._right-background-color}}; padding: {{_styling._right-padding}};">{{{right}}}</div>
         {{/if_eq}}
         {{#if_eq ../_layoutType "image-text"}}
-        <div class="text">{{{right}}}</div>
+        <div class="text" style="color: {{../_styling._right-font-color}}; background-color: {{../_styling._right-background-color}}; padding: {{_styling._right-padding}};"">{{{right}}}</div>
         {{/if_eq}}
       </div>
     </div>

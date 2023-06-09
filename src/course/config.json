@@ -39,7 +39,7 @@
         }
     },
     "_languagePicker": {
-        "_isEnabled": true,
+        "_isEnabled": false,
         "title": "Language selection",
         "displayTitle": "Please select a language",
         "body": "This course is available in the following languages:",
@@ -76,8 +76,8 @@
         "_imgLazyLoad": true
     },
     "_sound": {
-        "_isActive": true,
-        "_playPause": true,
+        "_isActive": false,
+        "_playPause": false,
         "_transcript": false
     },
     "_drawer": {

@@ -20,8 +20,10 @@
     .clickshow__widget {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        align-items: stretch;
+        justify-content: stretch;
+
+        width: 100%;
 
         @media (max-width: @device-width-small) {
             flex-direction: column;
@@ -31,42 +33,95 @@
 
         &.is-visited {
             .right {
+                display: flex;
                 opacity: 1;
                 animation-name: fadeIn;
                 animation-duration: 1s;
             }
         }
 
+        margin: 0.5rem 1rem 0.5rem 0rem;
         &.column {
+            margin: 0 0.5rem;
             flex-direction: column;
+            width: auto;
         }
     }
 
     .clickshow__item {
 
+        display: flex;
+        flex: 0 0 auto;
+
+        align-items: stretch;
+        justify-content: stretch;
+
         &.left {
-            margin-right: 1rem;
             cursor: pointer;
 
             button {
                 color: @item-color;
                 background-color: @item-color-inverted;
             }
-
-            .text {
-                color: @item-color;
-                background-color: @item-color-inverted;
-                font-weight: bold;
-            }
         }
         &.right {
+            @media (max-width: @device-width-small) {
+                display: none;
+            }
             opacity: 0; 
-            flex: 1 0;
-        }
+            flex: 1 1 auto;
+        }  
 
-        &.column {
-            margin: 0 0.5rem;
+    }
+
+    .text {
+        color: @item-color-inverted;
+        background-color: @item-color;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+        text-align: center;
+
+        margin-top: 0;
+        margin-left: 0.5rem;
+        overflow: hidden;
+
+        @slant-width: 3rem;
+        padding-left: @slant-width;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: @slant-width;
+            height: 100%;
+            background: @rssb-turquoise;
+            -webkit-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+            -webkit-transform: skew(-22deg);
+            -ms-transform: skew(-22deg);
+            transform: skew(-22deg);
+            z-index: 1;
+          }
+    }
+
+    .column {
+        .text {
+            margin-top: 0.5rem;
+            margin-left: 0;
         }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 

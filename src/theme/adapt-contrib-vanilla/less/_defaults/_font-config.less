@@ -1,17 +1,47 @@
 // --------------------------------------------------
 // Font declarations
 // --------------------------------------------------
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
 // --------------------------------------------------
 
+@font-face {
+    font-family: 'Brutal Bold';
+    src: url('fonts/BrutalType-Black.woff2') format('woff2'),
+    url('fonts/BrutalType-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brutal Medium';
+    src: url('fonts/BrutalType-Medium.woff2') format('woff2'),
+    url('fonts/BrutalType-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brutal';
+    src: url('fonts/BrutalType.woff2') format('woff2'),
+    url('fonts/BrutalType.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+// --------------------------------------------------
 // --------------------------------------------------
 // Font family
 // --------------------------------------------------
-@title-family: 'Open Sans', sans-serif;
-@body-family: 'Open Sans', sans-serif;
-@btn-family: 'Open Sans', sans-serif;
+@title-family: 'Brutal Bold', sans-serif;
+@subtitle-family: 'Brutal Medium', sans-serif;
+@body-family: 'Brutal', sans-serif;
+@btn-family: 'Brutal', sans-serif;
+@ins-family: 'Brutal Bold', sans-serif;
 
-@hover-family: 'Open Sans', serif;
+@hover-family: 'Brutal', serif;
 
 // --------------------------------------------------
 
@@ -48,8 +78,8 @@
 @body-weight: @font-weight-regular;
 
 @instruction-size: 1rem;
-@instruction-family: @body-family;
-@instruction-weight: @font-weight-regular;
+@instruction-family: @ins-family;
+@instruction-weight: @font-weight-bold;
 @instruction-line-height: @body-line-height;
 
 @btn-size: 1rem;
@@ -70,12 +100,12 @@
 // --------------------------------------------------
 @menu-title-size: 2rem;
 @menu-title-family: @title-family;
-@menu-title-weight: @font-weight-regular;
+@menu-title-weight: @font-weight-bold;
 @menu-title-line-height: @title-line-height;
 
 @menu-subtitle-size: 1.7rem;
-@menu-subtitle-family: @title-family;
-@menu-subtitle-weight: @font-weight-light;
+@menu-subtitle-family: @subtitle-family;
+@menu-subtitle-weight: @font-weight-regular;
 @menu-subtitle-line-height: @title-line-height;
 
 @menu-body-size: 1rem;

@@ -1,24 +1,45 @@
-    {
-        "_id": "c-05",
-        "_parentId": "b-05",
-        "_type": "component",
-        "_component": "clickshow",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Our first look at a component",
-        "displayTitle": "Our first look at a component",
-        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-        "instruction": "",
-        "_layoutType": "image",
-        "_items": [
-         {
-            "left": "<img src='https://via.placeholder.com/250x150' />",
+{
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "clickshow",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Click Show",
+    "displayTitle": "Click Show",
+    "body": "<p>This component is interactive.</p><p>The learner sleects the item on the left to show the item on the right.</p><p>The left and right items can be image assets or text.</p><p>The layout position can be set to 'row' items stacked on top of each other (select left to show right) or 'column' items shown in a row (select top to show bottom).",
+    "instruction": "<p>Select the images to find out more.</p>",
+	"_layoutPosition": "column",
+    "_layoutType": "image-text",
+    "_items": [
+        {
+            "left": "https://via.placeholder.com/250x150",
             "leftAlt": "Alt text for the left side image",
-            "right": "<img src='https://via.placeholder.com/600x150' />",
-            "rightAlt": "Alt text for the right side image"
+            "right": "<p>Text content to show.</p>",
+            "rightAlt": ""
+         },
+         {
+            "left": "https://via.placeholder.com/250x150",
+            "leftAlt": "Alt text for the left side image",
+            "right": "<p>Text content to show.</p>",
+            "rightAlt": ""
          }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+}
+
+
+
+   //  optional 
+
+
+   "_styling": {
+        "_left-font-color": "transparent",
+        "_left-background-color": "transparent",
+        "_left-padding": "0rem",
+        "_right-font-color": "#FFF",
+        "_right-background-color": "#000",
+        "_right-padding": "1rem"
     }

@@ -6,10 +6,10 @@
   "_dev": true,
   "_classes": "",
   "_htmlClasses": "",
-  "title": "Demo course",
-  "displayTitle": "Demo course",
+  "title": "Net Zero Carbon Rail",
+  "displayTitle": "Net Zero Carbon Rail",
   "description": "",
-  "body": "<p>Welcome to this demo course to display the components available in Adapt.</p>",
+  "body": "",
   "instruction": "",
   "_buttons": {
     "_submit": {
@@ -116,7 +116,7 @@
     "_hero_mobile": "https://via.placeholder.com/462x257"
   },
   "_resources": {
-    "_isEnabled": true,
+    "_isEnabled": false,
     "title": "Resources",
     "description": "View resources for this course by clicking here.",
     "_filterButtons": {
@@ -146,7 +146,7 @@
     ]
   },
   "_glossary": {
-    "_isEnabled": true,
+    "_isEnabled": false,
     "_drawerOrder": 1,
     "title": "Glossary",
     "description": "Select here to view the glossary for this course",

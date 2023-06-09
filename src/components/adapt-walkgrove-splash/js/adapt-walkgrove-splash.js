@@ -36,8 +36,8 @@ define([
         Adapt.trigger('audio:pause');
       }
 
-      Adapt.router.navigateToHomeRoute();
-      //Backbone.history.navigate('#/id/co-01_00', {trigger: true});
+      //Adapt.router.navigateToHomeRoute();
+      Backbone.history.navigate('#/id/co-01_01', {trigger: true});
     }
 
   },

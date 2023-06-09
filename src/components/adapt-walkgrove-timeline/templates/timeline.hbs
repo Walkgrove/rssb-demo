@@ -7,7 +7,7 @@
      
     {{#each _items}}
       <div class="timeline__widget" id="timeline__widget-{{@index}}" >
-        <div class="timeline__item-title" role="heading" aria-level="3" >{{title}}</div>
+        {{#if title}}<div class="timeline__item-title" role="heading" aria-level="3" >{{title}}</div>{{/if}}
         <div class="timeline__item-body" >{{{body}}}</div>
         {{#if _image}} <img class="timeline__item-image" src={{{_image}}} {{#if alt}}aria-label="{{alt}}" {{else}}aria-hidden="true" alt=""{{/if}} />{{/if}}
       </div>

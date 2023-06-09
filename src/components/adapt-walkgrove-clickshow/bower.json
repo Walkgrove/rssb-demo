@@ -1,19 +1,19 @@
 {
     "name": "adapt-walkgrove-clickshow",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/walkgrovedev/adapt-walkgrove-clickshow.git"
-    },
-    "framework": "5",
-    "version": "1.0.0",
-    "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-clickshow.git",
-    "component": "clickshow",
-    "displayName": "Click Show",
-    "description": "A component ...",
+    "authors": [
+      "Laura Hooper <laura.hooper@walkgrove.co.uk>"
+    ],
+    "description": "An interactive component with images or text, which shows more content when selected. Can b formatted as a horizontal or vertical layout.",
     "main": "/js/adapt-walkgrove-clickshow.js",
     "keywords": [
         "adapt-plugin",
         "adapt-component"
     ],
-    "license": "GPL-3.0"
-}
+    "version": "2.0.0",
+    "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-clickshow",
+    "framework": ">=5.0",
+    "component": "clickshow",
+    "displayName": "Clickshow",
+    "license": "",
+    "private": true
+  }

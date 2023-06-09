@@ -44,7 +44,7 @@ define([
       this.setItemVisited(itemIndex);
 
       //audio?
-      if (Adapt.config.get('_sound')._isActive === true) {
+      if (Adapt.config.get('_sound') && Adapt.config.get('_sound')._isActive === true) {
         this.model.get('_items').forEach((item, index) => {
           if (index === itemIndex) {
             if (item._audio) {

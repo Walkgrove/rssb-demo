@@ -10,7 +10,7 @@
 
 
 html, body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Brutal', sans-serif;
 
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -71,107 +71,15 @@ html, body {
 }
 
 
-/* MENU */
-////////////////////////////////////////
-
-.fullmenu-item {
-    //width: 24.9%;
-}
-
-.fullmenu-item:first-of-type { ///// change depending on number of topics ...
-    width: 100%;
-    height: 25%;
-}
-
-//////////////////////////////////////////
-
-@menu-colouring: @primary-colour;
-
 .drawer__item-title {
     font-weight: bold!important;
 }
 
-.fullmenu .menu__title-inner {
-    
-    font-size: 1.7rem!important;
-
-    @media (max-width: 1280px) {
-        font-size: 1.5rem!important;
-        margin-top: 0.75rem!important;
-    }
-
-    @media (max-width: 823px) and (orientation: landscape){
-        font-size: 1rem!important;
-        margin-top: 0rem!important;
-    }
-
-}
-
-.fullmenu__header-inner {
-    padding: 1rem!important; // 0rem!important;
-
-    @media (max-width: 823px) and (orientation: landscape) {
-        min-height: 70vh;
-    }
-}
-
-.fullmenu__body-inner {
-
-    a {
-        color: @white!important;
-
-        &:hover {
-            color: @lightGrey!important;
-        }
-    }
-
-    @media (max-width: @device-width-small) {
-        width: 75%;
-    }
-}
 
 
 // -----------------------------------
 // HOTGRAPHIC
 // -----------------------------------
-
-// ----- if blank image, show tick -----//
-/*.hotgraphic__pin:not(.has-pin-image) {
-    transform: translate(-50%,-50%);
-    border: 3px solid @secondary-colour;
-    box-shadow: 0 4px 8px 0 rgba(22, 32, 99, 0.2), 0 6px 10px 0 rgba(22, 32, 99, 0.19);
-}
-
-.hotgraphic__pin.has-pin-image {
-    background: transparent;
-    max-width: 21%;
-
-    .hotgraphic__pin-image-container {
-        position: relative;
-        .icon;
-        &:before {
-            content: "\e944";
-            display: none;
-            width: @icon-size;
-            height: @icon-size;
-            min-width: @icon-size;
-            position: absolute;
-            right: 0.5rem;
-            top: 0.5rem;
-            background-color: @primary-colour;
-            color: @white;
-            border-radius: 100%;
-        }
-    }
-
-    &.is-visited {
-        .hotgraphic__pin-image-container {
-            &:before {
-                display: inline-block;
-            }
-        }
-    }
-}*/
 
 .hotgraphic__pin:not(.has-pin-image) {
     background-color: @primary-colour!important;
@@ -252,16 +160,10 @@ html, body {
     padding: 0rem 1rem;
 }
 
+
 // -----------------------------------
 // CUSTOMISATION
 // -----------------------------------
-
-//PAGE BACKGROUNDS
-.co-01_01, .co-01_02, .co-01_03, .co-01_04, .co-01_05, .co-01_06, .co-01_07 {
-    .page__background-image {
-        background: url('https://via.placeholder.com/1920x1080');
-    }
-}
 
 .no-padding {
     .block__inner {
@@ -293,42 +195,74 @@ html, body {
     }
 }
 
-.b-01_01_020, .b-01_01_040, .b-01_01_060, .b-01_01_080, 
-.b-01_02_020, .b-01_02_040, .b-01_02_060, .b-01_02_080, 
-.b-01_03_020, .b-01_03_040, .b-01_03_060, .b-01_03_080,
-.b-01_04_020, .b-01_04_040, .b-01_04_060, .b-01_04_080 {
+.c-01_01_030, .c-01_01_060, .c-01_01_070 {
+    .timeline__main, .mcq__widget, .matching__widget {
+        border-top: 1px solid @rssb-turquoise;
+        padding: 2rem 0;
+        border-bottom: 1px solid @rssb-turquoise;
+    }
+}
+
+.purple-background {
+    background: @rssb-deep-purple;
+    color: @rssb-cloud;
+
+    .component__title, .component__body, .component__instruction {
+        color: @rssb-cloud!important;
+    }
+}
+
+.grey-background {
+    background: @rssb-grey;
+    color: @rssb-deep-purple;
+
+    .component__title, .component__body, .component__instruction {
+        color: @rssb-deep-purple!important;
+    }
+}
+
+.full-height {
+    background-color: #000;
     .block__inner {
-        //background-color: @lightGrey;
+        margin: 0;
+        max-width: none;
     }
 }
 
-.primary-background  {
-    background: @primary-colour;
-    color: @white;
-}
-
-.texture-background {
-    background: #FAF9EE url(course/en/images/backgrounds/texture.jpg);
-    background-size: auto 100vh; //cover; //100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    @media (max-width: 1280px) {
-        //background-size: cover;
-    }
-
-    &.block-bg {
-        background-position: top left;
+.full-width {
+    .block__inner {
+        padding: 0rem!important;
+        max-width: none!important;
+        margin: 0!important;
     }
 }
 
-.black-background {
-    background: @black;
-    color: @white;
+.article__header {
+    display: none;
+}
+
+.component__title {
+    position: relative;
+    padding-bottom: 2rem!important;
+    margin-bottom: 3rem!important;
+
+    &:after {
+        position: absolute;
+        border-top: 7px solid @rssb-turquoise;
+        width: 7rem;
+        bottom: 0;
+        left: 0;
+        content: "";
+    }
+}
+
+.component__instruction {
+    font-style: normal!important;
 }
 
 .footer-background  {
-    background: @primary-colour;
+    background: @rssb-purple;
+    color: @rssb-cloud;
     position: relative;
 
     &:after {
@@ -336,58 +270,15 @@ html, body {
         height: 5px;
         bottom: 0;
         position:absolute;
-        background-color: @secondary-colour;
+        background-color: @rssb-purple;
+        color: @rssb-cloud;
         content: "";
     }
-}
 
-.white-background {
-    background: @white;
-    color: @black;
-}
+    border-top: 1px solid @rssb-turquoise;
 
-.primary-background  {
-    background: @primary-opacity-95;
-    color: @white;
-
-    .block__inner {
-        .component__title {
-            color: @white!important;
-        }
-    }
-}
-
-.transparent-background {
-    background: transparent;
-    color: @black;
-
-    .block__inner {
-        background: @white-opacity;
-        margin: @component-padding-top auto;
-        border-radius: 5px;
-
-        @media (max-width: @device-width-medium) {
-            margin: @component-padding-top-mobile auto;
-        }
-    }
-}
-
-.primary-transparent-background {
-    background: transparent;
-    color: @white;
-
-    .block__inner {
-        background: @primary-opacity-95;
-        margin: @component-padding-top auto;
-        border-radius: 5px;
-
-        @media (max-width: @device-width-medium) {
-            margin: @component-padding-top-mobile auto;
-        }
-
-        .component__title {
-            color: @white!important;
-        }
+    .pagefooter__inner {
+        padding: 0.25rem!important;
     }
 }
 
@@ -455,78 +346,6 @@ html, body {
 }
 
 
-
-//------------------------------------
-// DRAG DROP
-//------------------------------------
-
-.dragdrop-background-1 {
-    background: url('https://via.placeholder.com/563x352');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #d8d8d8;
-    border-radius: 1rem;
-
-}
-
-.dragdrop-background-2 {
-    background: url('https://via.placeholder.com/563x352');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #d8d8d8;
-    border-radius: 1rem;
-}
-
-.dragdrop-background-3 {
-    background: url('https://via.placeholder.com/563x352');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #d8d8d8;
-    border-radius: 1rem;
-}
-
-// .dragdrop__placeholder-title {
-//     margin-top: 1.5rem;
-//     text-transform: uppercase;
-//     letter-spacing: -0.08rem;
-
-//     @media (max-width: 1280px) {
-//         margin-top: 1rem;
-//     }
-//  }
-
-.dragdrop .dragdrop__placeholder-items {
-    border: none;
-}
-
-//------------------------------------
-// FLIPCARDS
-//------------------------------------
-
-//IF FULL BACKGROUND IMAGE
-
-/*.flipcards__card-front, .flipcards__card-back {
-    background-color: transparent!important;
-}
-
-//IE11 fixes
-.flipcards__content, .flipcards__image {
-    flex: 1 1 45%!important;
-}
-
-.flipcards__card-back {
-    overflow-y: hidden;
-}*/
-
-
-//------------------------------------
-// QUICKFIRE
-//------------------------------------
-
-.quickfire__question-container, .quickfire__feedback-container {
-    background-color: @white;
-}
-
 //------------------------------------
 // NARRATIVE
 //------------------------------------
@@ -539,15 +358,4 @@ html, body {
     @media (max-width: 823px) and (orientation: landscape) {
         overflow: hidden;
     }
-}
-
-
-//------------------------------------
-// ACOORDION
-//------------------------------------
-
-.accordion__item-content {
-    background-color: @white!important;
-    color: @black!important;
-    border:2px solid darken(@item-color, 20%)!important;
 }
