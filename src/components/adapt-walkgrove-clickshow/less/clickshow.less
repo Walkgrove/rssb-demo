@@ -1,0 +1,86 @@
+.clickshow {
+    &__main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+
+        &.column {
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            @media (max-width: @device-width-small) {
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+
+    .clickshow__widget {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: @device-width-small) {
+            flex-direction: column;
+        }
+
+        margin: 1rem 0;
+
+        &.is-visited {
+            .right {
+                opacity: 1;
+                animation-name: fadeIn;
+                animation-duration: 1s;
+            }
+        }
+
+        &.column {
+            flex-direction: column;
+        }
+    }
+
+    .clickshow__item {
+
+        &.left {
+            margin-right: 1rem;
+            cursor: pointer;
+
+            button {
+                color: @item-color;
+                background-color: @item-color-inverted;
+            }
+
+            .text {
+                color: @item-color;
+                background-color: @item-color-inverted;
+                font-weight: bold;
+            }
+        }
+        &.right {
+            opacity: 0; 
+            flex: 1 0;
+        }
+
+        &.column {
+            margin: 0 0.5rem;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+.dir-rtl {
+    .clickshow {
+        .clickshow__item.left {
+            margin-right: 0;
+            margin-left: 1rem;
+        }
+    }
+}

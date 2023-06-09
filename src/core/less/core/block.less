@@ -1,0 +1,14 @@
+.block {
+
+  background: @block-default;
+  color: @block-default-content;
+
+  &__container {
+    .l-container-responsive(@device-width-large);
+    
+  }
+
+  &__inner {
+    .l-container-responsive(@device-width-content);
+  }
+}

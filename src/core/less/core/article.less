@@ -1,0 +1,38 @@
+.article {
+
+  &__header {
+    height: 40vh;
+
+    @media (max-width: @device-width-medium) {
+      height: 40vh; //
+    }
+
+    @media (max-width: 823px) and (orientation: landscape){
+      height: 25vh;
+    }
+
+    @media (max-width: @device-width-small) {
+      height: 25vh;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__header-inner {
+    width: 100%;
+    .l-container-responsive(@device-width-large);
+  }
+
+  &__title {
+    .l-container-responsive(@device-width-content);
+  }
+
+  &__title-inner span {
+    //background-color: @header-highlight;
+    padding: 0.5rem 1rem;
+    line-height: 1.8;
+  }
+
+}

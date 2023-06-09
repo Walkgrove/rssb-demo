@@ -1,0 +1,75 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "Page footer with naviagtional links.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties": {
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
+    },
+    "_buttons": {
+      "type": "array",
+      "required": true,
+      "title": "Footer links",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "_name": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link direction",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": false
+          },
+          "_href": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link URL",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": false
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link display title",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          }
+        } 
+      }
+    }
+  }
+}

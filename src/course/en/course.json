@@ -1,0 +1,183 @@
+{
+  "_frameworkVersion": "2023_03",
+  "_courseVersion": "0_1",
+  "_id": "course",
+  "_type": "course",
+  "_dev": true,
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "Demo course",
+  "displayTitle": "Demo course",
+  "description": "",
+  "body": "<p>Welcome to this demo course to display the components available in Adapt.</p>",
+  "instruction": "",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Check Answer",
+      "ariaLabel": "check answer"
+    },
+    "_tryagain": {
+      "buttonText": "Try again",
+      "ariaLabel": "try again"
+    },
+    "_reset": {
+      "buttonText": "Try again",
+      "ariaLabel": "try again"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "My answer",
+      "ariaLabel": "Show my answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "durationLabel": "Duration:",
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "sound": "Toggle sound",
+        "playPause": "Toggle playing sound",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "reset": "Reset",
+        "retry": "Retry",
+        "complete": "Current status: Completed. ",
+        "incomplete": "Current status: Incomplete. ",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited",
+        "splash": "Select anywhere to begin.",
+        "view": "View topic",
+        "continue": "Continue",
+        "menu": "module menu",
+        "rewind": "Rewind",
+        "showmore": "Select to show more.",
+        "home": "Home",
+        "help": "Help",
+        "resources": "Resources",
+        "progress": "Progress"
+      }
+    }
+  },
+  "_languagePicker": {
+    "navigationBarLabel": "Select course language"
+  },
+  "_latestTrackingId": 67,
+  "_start": {
+    "_isEnabled": true,
+    "_startIds": {
+      "_id": "co-01_00",
+      "_skipIfComplete": true,
+      "_className": ""
+    },
+    "_id": "co-01_00",
+    "_force": true
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": false,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
+  },
+  "_sectionProgress": {
+    "_isEnabled": false
+  },
+  "_fullMenu": {
+    "_hero": "https://via.placeholder.com/462x257",
+    "_hero_mobile": "https://via.placeholder.com/462x257"
+  },
+  "_resources": {
+    "_isEnabled": true,
+    "title": "Resources",
+    "description": "View resources for this course by clicking here.",
+    "_filterButtons": {
+      "all": "All",
+      "document": "Document",
+      "media": "Media",
+      "link": "Link"
+    },
+    "_filterAria": {
+      "allAria": "View all resources",
+      "documentAria": "View document resources",
+      "mediaAria": "View media resources",
+      "linkAria": "View resource links"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "link",
+        "title": "Links title",
+        "description": "Link 1",
+        "_link": "#"
+      },
+      {
+        "_type": "link",
+        "description": "Link 2",
+        "_link": "#"
+      }
+    ]
+  },
+  "_glossary": {
+    "_isEnabled": true,
+    "_drawerOrder": 1,
+    "title": "Glossary",
+    "description": "Select here to view the glossary for this course",
+    "clearSearch": "Clear search",
+    "searchItemsAlert": "{{filteredItems.length}} found",
+    "searchPlaceholder": "Search",
+    "searchWithInDescriptionLabel": "Search within Description",
+    "itemNotFoundMessage": "No results found",
+    "_isIndexEnabled": false,
+    "_isGroupHeadersEnabled": false,
+    "_isSearchEnabled": false,
+    "_glossaryItems": [
+      {
+        "term": "Walkgrove",
+        "description": "Walkgrove is an award-winning bespoke e-learning solutions company, offering content development, LMS and off-the-shelf courses since 1994."
+      }
+    ]
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 75
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "component",
+    "title": "Resume?",
+    "body": "Would you like to resume the course from the location you were at last time?",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_lockType": "custom"
+}

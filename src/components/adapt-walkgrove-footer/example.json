@@ -1,0 +1,23 @@
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "pageFooter",
+        "_classes": "",
+        "_layout": "full",
+        "_buttons": [
+            {
+                "_name": "previous",
+                "_href": "#/id/co-05",
+                "title": "Previous section"
+            },
+            {
+                "_name": "next",
+                "_href": "#/id/co-15",
+                "title": "Next section"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }

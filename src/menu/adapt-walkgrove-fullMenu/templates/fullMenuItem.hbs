@@ -1,0 +1,55 @@
+{{import_globals}}
+
+<div class="menu-item__inner fullmenu-item__inner js-btn-click{{#if _isVisited}} is-visited{{/if}}{{#if _isLocked}} is-locked{{/if}}" aria-label="{{#if _isVisited}}{{_globals._accessibility._ariaLabels.visited}}{{/if}} {{linkText}}"{{#if _isLocked}} disabled="disabled"{{/if}}>
+
+  {{#if _graphic.src}}
+  <div class="menu-item__image-container fullmenu-item__image-container">
+    <img class="menu-item__image fullmenu-item__image" src="{{_graphic.src}}" {{#if _graphic.alt}}aria-label="{{_graphic.alt}}" {{else}}alt="" aria-hidden="true"{{/if}} />
+    {{#if _graphic.alt}}<div class="fullmenu-item__hover" alt="" aria-hidden="true">{{_graphic.alt}}</div>{{/if}}
+  </div>
+  {{/if}}
+
+  <div class="menu-item__details fullmenu-item__details">
+    <div class="menu-item__details-inner fullmenu-item__details-inner">
+
+      <div class="fullmenu-item__details-inner-left">
+        {{#if displayTitle}}
+        <div class="menu-item__title fullmenu-item__title">
+          <div class="js-heading" data-a11y-heading-type="menuItem"></div>
+
+          <div class="menu-item__title-inner fullmenu-item__title-inner accessible-text-block" >
+            {{{compile displayTitle}}}
+          </div>
+        </div>
+        {{/if}}
+
+        {{!-- {{#if _graphic.alt}}{{a11y_aria_image _graphic.alt}}{{/if}} --}}
+
+        {{#if body}}
+        <div class="menu-item__body fullmenu-item__body">
+          <div class="menu-item__body-inner fullmenu-item__body-inner" >
+            {{{compile body}}}
+          </div>
+        </div>
+        {{/if}}
+      </div>
+
+      <div class="fullmenu-item__details-inner-right">
+        {{#if duration}}
+        <div class="menu-item__duration fullmenu-item__duration">
+          <div class="menu-item__duration-inner fullmenu-item__duration-inner" >
+            {{#if _globals._menu._fullmenu.durationLabel}}{{{_globals._menu._fullmenu.durationLabel}}}{{/if}} {{{duration}}}
+          </div>
+        </div>
+        {{/if}}
+
+        <div class="menu-item__progress fullmenu-item__progress js-menu-item-progress">
+          {{!-- Menu item progress bar will render in here --}}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>

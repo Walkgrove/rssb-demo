@@ -1,0 +1,1112 @@
+[
+   {
+      "_id": "b-01_00_010",
+      "_parentId": "a-01_00",
+      "_type": "block",
+      "_classes": "no-padding full-height no-hero",
+      "title": "b-01_00_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 2,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_010",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_01_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 3,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_020",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_01_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 4,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_030",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_01_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 5,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_035",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_01_035",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 6,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_040",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "three-quarter-width ",
+      "title": "b-01_01_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 7,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_045",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_01_045",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 8,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_050",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "half-width",
+      "title": "b-01_01_050",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 9,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_060",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "no-padding black-background",
+      "title": "b-01_01_060",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 10,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_B1",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "no-padding primary-background",
+      "title": "b-01_01_B1",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 11,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_trickle": {
+         "_isEnabled": true,
+         "_autoScroll": false,
+         "_button": {
+            "_isEnabled": false
+         }
+      }
+   },
+   {
+      "_id": "b-01_01_070",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "three-quarter-width transparent-background",
+      "title": "b-01_01_070",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 12,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_075",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_01_075",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 13,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_080",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_01_080",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 14,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_085",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "three-quarter-width ",
+      "title": "b-01_01_085",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 15,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_090",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_01_090",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 16,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_100",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_01_100",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 17,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_01_F",
+      "_parentId": "a-01_01",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_01_F",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 18,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_010",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "half-width",
+      "title": "b-01_02_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 19,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_015",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "three-quarter-width transparent-background",
+      "title": "b-01_02_015",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 20,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_020",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "three-quarter-width",
+      "title": "b-01_02_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 21,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_030",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_02_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 22,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_035",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_02_035",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 23,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_040",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_02_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 24,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_050",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "half-width",
+      "title": "b-01_02_050",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 25,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_060",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": " transparent-background",
+      "title": "b-01_02_060",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 26,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_070",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_02_070",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 27,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_075",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_02_075",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 28,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_080",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "three-quarter-width  transparent-background",
+      "title": "b-01_02_080",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 28,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_090",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_02_090",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 29,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_100",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_02_100",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 30,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_110",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_02_110",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 31,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_02_F",
+      "_parentId": "a-01_02",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_02_F",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 32,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_000",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_000",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 33,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_010",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_03_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 34,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_020",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "half-width ",
+      "title": "b-01_03_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 35,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_030",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_03_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 36,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_040",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 37,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_050",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_03_050",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 38,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_060",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_060",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 39,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_070",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "three-quarter-width  transparent-background",
+      "title": "b-01_03_070",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 40,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_080",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_080",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 41,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_085",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_085",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 42,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_090",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "half-width transparent-background",
+      "title": "b-01_03_090",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 43,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_100",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_100",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 44,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_110",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_03_110",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 45,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_120",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_03_120",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 46,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_03_F",
+      "_parentId": "a-01_03",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_03_F",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 47,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_04_010",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "three-quarter-width ",
+      "title": "b-01_04_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 48,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_04_015",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "no-padding black-background",
+      "title": "b-01_04_015",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 49,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_trickle": {
+         "_isEnabled": true,
+         "_autoScroll": true,
+         "_button": {
+            "_isEnabled": false
+         }
+      }
+   },
+   {
+      "_id": "b-01_04_020",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "half-width transparent-background",
+      "title": "b-01_04_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 50,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_04_030",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "three-quarter-width ",
+      "title": "b-01_04_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 51,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_04_040",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "half-width transparent-background",
+      "title": "b-01_04_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 52,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_04_050",
+      "_parentId": "a-01_04",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_04_050",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 53,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_05_010",
+      "_parentId": "a-01_05",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_05_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 54,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_05_020",
+      "_parentId": "a-01_05",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_05_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 55,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_010",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_06_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 56,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_020",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_06_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 57,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_030",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_06_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 58,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_040",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_06_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 59,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_050",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_06_050",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 60,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_060",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_06_060",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 61,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_070",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_06_070",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 62,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_06_080",
+      "_parentId": "a-01_06",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_06_080",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 63,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      }
+   },
+   {
+      "_id": "b-01_07_010",
+      "_parentId": "a-01_07",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_07_010",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 64,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_assessment": {
+         "_quizBankID": 1
+      }
+   },
+   {
+      "_id": "b-01_07_020",
+      "_parentId": "a-01_07",
+      "_type": "block",
+      "_classes": "transparent-background",
+      "title": "b-01_07_020",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 65,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_trickle": {
+         "_isEnabled": true,
+         "_autoScroll": false,
+         "_button": {
+            "_isEnabled": false
+         }
+      }
+   },
+   {
+      "_id": "b-01_07_030",
+      "_parentId": "a-01_07",
+      "_type": "block",
+      "_classes": "",
+      "title": "b-01_07_030",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 66,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_trickle": {
+         "_isEnabled": true,
+         "_autoScroll": false,
+         "_button": {
+            "_isEnabled": false
+         }
+      }
+   },
+   {
+      "_id": "b-01_07_040",
+      "_parentId": "a-01_07",
+      "_type": "block",
+      "_classes": "no-padding footer-background",
+      "title": "b-01_07_040",
+      "displaytitle": "",
+      "body": "",
+      "instruction": "",
+      "_trackingId": 67,
+      "_onScreen": {
+         "_isEnabled": true,
+         "_classes": "",
+         "_percentInviewVertical": 25
+      },
+      "_trickle": {
+         "_isEnabled": true,
+         "_autoScroll": false,
+         "_button": {
+            "_isEnabled": false
+         }
+      }
+   }
+]

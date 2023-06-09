@@ -1,0 +1,103 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "List of selectable areas. Select each button to show more information.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties": {
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
+    },
+    "_layoutType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the layout setting - using images or text",
+      "translatable": false
+    },
+    "_flexLayout": {
+      "type": "string",
+      "required": true,
+      "default": "row",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the display layout setting - columns or row",
+      "translatable": false
+    },
+    "_items": {
+      "type": "array",
+      "required": true,
+      "title": "Items",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "left": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "left element",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          },
+          "leftAlt": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "left element alt information",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          },
+           "right": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "right element",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          },
+          "rightAlt": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "right element alt information",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          }
+        }
+      }
+    }
+  }
+}

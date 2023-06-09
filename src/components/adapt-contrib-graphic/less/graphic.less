@@ -1,0 +1,33 @@
+.graphic__image-container {
+    position: relative;
+}
+
+.graphic__popup-icon {
+    background-color: @primary-colour;
+    color: @white;
+
+    border-radius: 100%;
+    padding: 0.5rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    .icon-search;
+
+    .highlight-animation;
+    animation-iteration-count: infinite;
+
+    cursor: pointer;
+
+    &.is-selected {
+        animation: none;
+        background-color: @secondary-colour;
+    }
+
+}
+
+

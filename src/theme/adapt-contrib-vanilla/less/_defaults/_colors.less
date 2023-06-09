@@ -1,0 +1,280 @@
+// --------------------------------------------------
+// Colour definitions
+// --------------------------------------------------
+// @blue: #36CDE8;
+// @blueDark: #263944;
+@grey: #9096A0;
+@greyDark: #4D4D4D;
+
+// --------------------------------------------------
+// Course
+// --------------------------------------------------
+
+@darkGrey: #4D4D4D;
+@lightGrey: #f4f4f4; //nav, background
+@almostBlack: #060606;
+
+@walkgrove-blue: #007fad;
+@walkgrove-orange: #d34509;
+@walkgrove-green: #1d8749;
+@walkgrove-pink: #db0084;
+@walkgrove-steel-blue: #567483;
+
+@primary-colour: @walkgrove-pink;
+@secondary-colour: @walkgrove-blue;
+@tertiary-colour: @lightGrey; //@walkgrove-steel-blue;
+
+@primary-colour-visited:#db00849d; //primary with '9d'
+
+@opacity-70: 0.7;
+@opacity-75: 0.75;
+@opacity-90: 0.9;
+@opacity-95: 0.95;
+
+@white-opacity: rgba(@white, @opacity-90);
+@block-default: @white-opacity;
+@block-default-content: @black;
+
+@primary-opacity-95: rgba(@primary-colour, @opacity-95);
+
+
+//---------------------------------------------------
+// ELEMENTS 
+// --------------------------------------------------
+
+@nav-bar: @lightGrey;
+@nav-bar-icons: @almostBlack;
+@nav-bar-hover: @secondary-colour;
+@nav-bar-icons-hover: @black;
+
+@page-footer-background: @primary-colour;
+@page-footer-link: @white;
+@footer-button-background: @white;
+@footer-button-label: @primary-colour;
+
+@bubble-background: @secondary-colour;
+@bubble-content: @black;
+@bubble-button-background: @primary-colour;
+@bubble-button-label: @black;
+
+@form-saved-icon-colour: @secondary-colour;
+
+@sectionProgress-background: rgba(@white, @opacity-70);
+@sectionProgress-icon-background: rgba(@secondary-colour, @opacity-75);
+
+@dragdrop-correct: @tertiary-colour;
+@dragdrop-correct-mobile: @secondary-colour;
+
+// These variables are used to change the colour of text
+// Primary use is for altering the text colour over a background image
+// See ../project/theme-extras.less for block mixin
+// --------------------------------------------------
+@transparent-light: transparent;
+@transparent-dark: transparent;
+// --------------------------------------------------
+
+// Note: If customising a theme for the Authoring Tool please update the
+// corresponding default value for that variable in the properties.schema file.
+// This is to stop any amended variables below being overwritten by
+// the Theme Picker in the Authoring Tool.
+
+// --------------------------------------------------
+// Body, link, and heading colour
+// --------------------------------------------------
+@font-color: @greyDark;
+@font-color-inverted: @white;
+
+@link: @font-color;
+@link-inverted: @font-color-inverted;
+
+@alternate-link: @white;
+@alternate-link-hover: @secondary-colour;
+
+@link-hover: @link;
+@link-inverted-hover: @link-inverted;
+
+@menu-heading-color: @white;
+@heading-color: @almostBlack;
+@heading-color-inverted: @white;
+
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Items - components
+// --------------------------------------------------
+@item-color: @secondary-colour;
+@item-color-inverted: @white;
+
+@item-color-hover: darken(@item-color, 10%);
+@item-color-inverted-hover: @item-color-inverted;
+
+@item-color-selected: darken(@item-color, 20%);
+@item-color-inverted-selected: @item-color-inverted;
+@item-visited: @lightGrey;
+@item-visited-inverted: @black;
+
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Visited - presentation components
+// --------------------------------------------------
+@visited: #727272;
+@visited-inverted: @white;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Buttons
+// --------------------------------------------------
+@btn-color: @primary-colour;
+@btn-color-inverted: @white;
+
+@btn-color-hover: @almostBlack;
+@btn-color-inverted-hover: @btn-color-inverted;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Disabled - question components
+// --------------------------------------------------
+@disabled: @grey;
+@disabled-inverted: @black;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Validation states - question marking
+// --------------------------------------------------
+@validation-success: #065f28;
+@validation-success-inverted: @white;
+
+@validation-error: #ff0000;
+@validation-error-inverted: @white;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Progress
+// --------------------------------------------------
+@progress: @grey;
+@progress-inverted: @white;
+@progress-border: @grey;
+@progress-background: @white;
+
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Menu
+// --------------------------------------------------
+
+@menu-content-background: rgba(@secondary-colour, @opacity-90);
+@menu-details-background: @secondary-colour; //@black-opacity-70;
+@menu-item-title: @black;
+@menu-item-details: @black;
+
+@menu-hover-background: rgba(@secondary-colour, @opacity-90); //@eds-hub-orange-90; //@secondary-opacity-90;
+@menu-hover-details: @black;
+
+
+@menu-item: @white;
+@menu-item-inverted: @font-color;
+@menu-item-border-color: @item-color;
+
+@menu-item-progress: @progress;
+@menu-item-progress-inverted: @progress-inverted;
+@menu-item-progress-border: @progress-border;
+
+@menu-item-btn-color: @btn-color;
+@menu-item-btn-color-inverted: @btn-color-inverted;
+
+@menu-item-btn-color-hover: @btn-color-hover;
+@menu-item-btn-color-inverted-hover: @btn-color-inverted-hover;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Navigation
+// --------------------------------------------------
+@nav: @primary-colour;
+@nav-inverted: @grey;
+
+@nav-icon: @nav-inverted;
+@nav-icon-inverted: @nav;
+
+@nav-icon-hover: darken(@nav-icon, 10%);
+@nav-icon-inverted-hover: @nav-icon-inverted;
+
+@nav-progress: @nav-icon-inverted;
+@nav-progress-inverted: @nav-icon;
+@nav-progress-border: @nav-icon-inverted;
+
+@nav-progress-hover: @nav-icon-inverted-hover;
+@nav-progress-inverted-hover: @nav-progress-inverted;
+@nav-progress-border-hover: @nav-progress-border;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Notify
+// --------------------------------------------------
+@notify: @secondary-colour;
+@notify-inverted: @white;
+
+@notify-link: @notify-inverted;
+
+@notify-link-hover: @notify-link;
+
+@notify-btn: @btn-color-inverted;
+@notify-btn-inverted: @btn-color;
+
+@notify-btn-hover: darken(@notify-btn, 10%);
+@notify-btn-inverted-hover: @notify-btn-inverted;
+
+@notify-icon: @notify;
+@notify-icon-inverted: @notify-inverted;
+
+@notify-icon-hover: darken(@notify-icon, 10%);
+@notify-icon-inverted-hover: @notify-icon-inverted;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Drawer
+// --------------------------------------------------
+@drawer: @white;
+@drawer-inverted: @primary-colour;
+
+@drawer-link: @drawer-inverted;
+
+@drawer-link-hover: @drawer-link;
+
+@drawer-icon: @drawer;
+@drawer-icon-inverted: @drawer-inverted;
+
+@drawer-icon-hover: darken(@drawer-icon, 10%);
+@drawer-icon-inverted-hover: @drawer-icon-inverted;
+
+@drawer-item: @drawer;
+@drawer-item-inverted: @drawer-inverted;
+
+@drawer-item-hover: darken(@drawer-item, 10%);
+@drawer-item-inverted-hover: @drawer-item-inverted;
+
+@drawer-item-selected: darken(@drawer-item, 20%);
+@drawer-item-inverted-selected: @drawer-item-inverted;
+
+@drawer-progress: @drawer-item-inverted;
+@drawer-progress-inverted: @drawer-item;
+@drawer-progress-border: @drawer-item-inverted;
+
+@drawer-progress-hover: @drawer-item-inverted-hover;
+@drawer-progress-inverted-hover: @drawer-item-hover;
+@drawer-progress-border-hover: @drawer-progress-border;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Background
+// --------------------------------------------------
+@background: @black;
+@background-inverted: @white;
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Shadow
+// --------------------------------------------------
+@shadow: @black;
+@shadow-inverted: @white;
+// --------------------------------------------------

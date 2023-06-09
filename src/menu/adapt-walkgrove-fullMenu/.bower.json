@@ -1,0 +1,27 @@
+{
+  "name": "adapt-walkgrove-fullMenu",
+  "version": "5.0.0",
+  "framework": ">=5",
+  "homepage": "https://github.com/adaptlearning/adapt-walkgrove-fullMenu",
+  "issues": "https://github.com/adaptlearning/adapt_framework/issues/new",
+  "menu": "fullMenu",
+  "displayName": "Full Menu",
+  "description": "A core bundled menu",
+  "main": "js/adapt-walkgrove-fullMenu.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ],
+  "license": "GPL-3.0",
+  "targetAttribute": "_fullMenu",
+  "_release": "5.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.0",
+    "commit": "f4358630e571d23258c54794e3de3916685f51bc"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-walkgrove-fullmenu.git",
+  "_target": "5.0.0",
+  "_originalSource": "adapt-walkgrove-fullMenu",
+  "_direct": true
+}

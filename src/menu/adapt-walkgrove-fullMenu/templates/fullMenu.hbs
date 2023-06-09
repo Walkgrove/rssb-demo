@@ -1,0 +1,60 @@
+{{import_globals}}
+
+<div class="menu__inner fullmenu__inner">
+
+  
+
+  <div class="menu__item-container fullmenu__item-container">
+    <div class="menu__item-container-inner fullmenu__item-container-inner js-children" role="list">
+
+      {{#any displayTitle subtitle body instruction}}
+  <div class="menu__header fullmenu__header fullmenu-item">
+    <div class="menu__header-inner fullmenu__header-inner">
+
+      {{#if displayTitle}}
+      <div class="menu__title fullmenu__title">
+
+        {{#unless _disableAccessibleState}}
+        <div class="js-heading"></div>
+        {{/unless}}
+
+        <div class="menu__title-inner fullmenu__title-inner">
+          {{{compile displayTitle}}}
+        </div>
+
+      </div>
+      {{/if}}
+
+      {{#if subtitle}}
+      <div class="menu__subtitle fullmenu__subtitle">
+        <div class="menu__subtitle-inner fullmenu__subtitle-inner" >
+          {{{compile subtitle}}}
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if body}}
+      <div class="menu__body fullmenu__body">
+        <div class="menu__body-inner fullmenu__body-inner">
+          {{{compile body}}}
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if instruction}}
+      <div class="menu__instruction fullmenu__instruction">
+        <div class="menu__instruction-inner fullmenu__instruction-inner" >
+          {{{compile instruction}}}
+        </div>
+      </div>
+      {{/if}}
+
+    </div>
+  </div>
+  {{/any}}
+
+      {{!-- Menu items render here --}}
+    </div>
+  </div>
+
+</div>

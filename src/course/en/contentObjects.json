@@ -1,0 +1,212 @@
+[
+   {
+      "_id": "co-01_00",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "",
+      "displayTitle": "",
+      "_graphic": {
+         "src": "",
+         "alt": ""
+      },
+      "linkText": "",
+      "duration": "",
+      "_isHidden": true,
+      "_hero": "",
+      "_hero_mobile": "",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_01",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Media components",
+      "displayTitle": "Media components",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Media components"
+      },
+      "linkText": "View",
+      "duration": "2 mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_02",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Question components",
+      "displayTitle": "Question components",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Question components"
+      },
+      "linkText": "View",
+      "duration": "4 mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_03",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Information components",
+      "displayTitle": "Information components",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Information components"
+      },
+      "linkText": "View",
+      "duration": "8 mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_04",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Scenario components",
+      "displayTitle": "Scenario components",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Scenario components"
+      },
+      "linkText": "View",
+      "duration": "2 mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_05",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Submenu component",
+      "displayTitle": "Submenu component",
+      "_graphic": {
+         "src": "",
+         "alt": "Submenu component"
+      },
+      "linkText": "",
+      "duration": "",
+      "_isHidden": true,
+      "_hero": "",
+      "_hero_mobile": "",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_06",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Systems Training components",
+      "displayTitle": "Systems Training components",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Systems Training components"
+      },
+      "linkText": "View",
+      "duration": "5mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   },
+   {
+      "_id": "co-01_07",
+      "_parentId": "course",
+      "_type": "page",
+      "_classes": "",
+      "_htmlClasses": "",
+      "title": "Assessment",
+      "displayTitle": "Assessment",
+      "_graphic": {
+         "src": "https://via.placeholder.com/462x257",
+         "alt": "Assessment"
+      },
+      "linkText": "View",
+      "duration": "5mins",
+      "_hero": "https://via.placeholder.com/1280x500",
+      "_hero_mobile": "https://via.placeholder.com/675x375",
+      "_pageLevelProgress": {
+         "_isEnabled": true,
+         "_showPageCompletion": true,
+         "_excludeAssessments": false,
+         "_isCompletionIndicatorEnabled": false
+      },
+      "_sectionProgress": {
+         "_isEnabled": false
+      }
+   }
+]
