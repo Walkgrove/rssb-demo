@@ -158,6 +158,8 @@
     justify-content: center;
     width: 100%;
 
+    background-color: @rssb-cloud;
+
     @media (min-width: @device-width-medium) {
       width: 100%;
     }
@@ -196,6 +198,12 @@
     .narrative__controls,
     .narrative__indicators {
       display: none;
+    }
+
+    @media (max-width: @device-width-small) {
+      background-color: @rssb-cloud;
+      color: @rssb-deep-purple;
+      padding: 1rem;
     }
   }
 

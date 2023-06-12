@@ -60,21 +60,29 @@
       "instruction": "<p>Select each icon to learn more.</p>",
       "_layoutType": "image-text",
       "_flexLayout": "row",
-      "_items": [
+      "_styling": {
+         "_left-font-color": "transparent",
+         "_left-background-color": "transparent",
+         "_left-padding": "0rem",
+         "_right-font-color": "#4F13E1",
+         "_right-background-color": "#F0F9FC",
+         "_right-padding": "1rem"
+     },
+     "_items": [
          {
             "left": "course/en/images/clickshow/clickshow_01.png",
             "leftAlt": "Icon of a lightbulb",
-            "right": "<p><strong>What does net zero actually mean?</strong><br/>Net zero means cutting greenhouse gas emissions to as close to zero as possible, with any remaining emissions re-absorbed from the atmosphere, by oceans and forests for instance.</p>"
+            "right": "<h3>What does net zero actually mean?</h3><p>Net zero means cutting greenhouse gas emissions to as close to zero as possible, with any remaining emissions re-absorbed from the atmosphere, by oceans and forests for instance.</p>"
          },
          {
             "left": "course/en/images/clickshow/clickshow_02.png",
             "leftAlt": "Icon of CO2",
-            "right": "<p><strong>So why does carbon matter?</strong><br/>Carbon dioxide (CO2) is the primary greenhouse gas emitted through human activities. Greenhouse gases act like a blanket wrapped around the earth, trapping the sun\u2019s heat and raising temperatures high enough to cause climate change (long-term shifts in temperatures and weather patterns).</p>"
+            "right": "<h3>So why does carbon matter?</h3><p>Carbon dioxide (CO2) is the primary greenhouse gas emitted through human activities. Greenhouse gases act like a blanket wrapped around the earth, trapping the sun\u2019s heat and raising temperatures high enough to cause climate change (long-term shifts in temperatures and weather patterns).</p>"
          },
          {
             "left": "course/en/images/clickshow/clickshow_03.png",
             "leftAlt": "Icon of a thermometer and the world",
-            "right": "<p><strong>Why is climate change problematic?</strong><br/>Climate change causes extreme temperatures and severe storms, increased droughts and famine, rising ocean levels, loss of species, greater health risks, poverty and displacement.</p>"
+            "right": "<h3>Why is climate change problematic?</h3><p>Climate change causes extreme temperatures and severe storms, increased droughts and famine, rising ocean levels, loss of species, greater health risks, poverty and displacement.</p>"
          }
       ],
       "_pageLevelProgress": {
@@ -89,10 +97,10 @@
       "_component": "timeline",
       "_classes": "",
       "_layout": "full",
-      "title": "",
+      "title": "Net Zero Carbon Rail",
       "displayTitle": "",
       "body": "<h2>How can rail make a difference?</h2>",
-      "instruction": "View the timeline of events below.",
+      "instruction": "Scroll down to read more.",
       "_items": [
          {
             "body": "<p>Depending on the scenario, travelling by rail emits 3-5 times fewer carbon emissions than driving, and about 6 times fewer than flying, per passenger km, while a single freight train may remove over 70 HGVs from the roads.</p>",
@@ -134,9 +142,9 @@
       "title": "Seamless Journeys",
       "displayTitle": "Seamless Journeys",
       "body": "<p>Rail must fully integrate as part of a sustainable, joined-up transport system to support the shift of people and goods onto railways.</p>",
-      "instruction": "<p>Select the numbers to learn more.</p>",
-      "_canCycleThroughPagination": false,
-      "_hidePagination": true,
+      "instruction": "<p>Select the number to learn more.</p>",
+      "_canCycleThroughPagination": true,
+      "_hidePagination": false,
       "_useGraphicsAsPins": false,
       "mobileInstruction": "Select the next and back arrows to find out more.",
       "_graphic": {
@@ -145,13 +153,74 @@
       },
       "_items": [
          {
+            "title": "1",
             "body": "<p>Rail needs to support a modal shift to rail, becoming the backbone of a cleaner, greener transport system for both passengers and freight.</p>",
             "_graphic": {
                "src": "course/en/images/hotspot/hotspot_popup.png",
                "alt": ""
             },
+            "_top": 34.5,
+            "_left": 18.1
+         },
+         {
+            "title": "2",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
+            "_top": 91.4,
+            "_left": 27.4
+         },
+         {
+            "title": "3",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
+            "_top": 47.5,
+            "_left": 37.4
+         },
+         {
+            "title": "4",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
+            "_top": 22,
+            "_left": 48.8
+         },
+         {
+            "title": "5",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
             "_top": 50,
-            "_left": 33
+            "_left": 59.4
+         },
+         {
+            "title": "6",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
+            "_top": 88.3,
+            "_left": 67.3
+         },
+         {
+            "title": "7",
+            "body": "<p>TBC</p>",
+            "_graphic": {
+               "src": "course/en/images/hotspot/hotspot_popup.png",
+               "alt": ""
+            },
+            "_top": 40,
+            "_left": 79.5
          }
       ],
       "_pageLevelProgress": {
@@ -193,7 +262,7 @@
       "body": "",
       "instruction": "<p>Choose one or more options and select Submit.</p>",
       "_questionWeight": 1,
-      "_canShowModelAnswer": false,
+      "_canShowModelAnswer": true,
       "_shouldDisplayAttempts": false,
       "_canShowMarking": false,
       "_attempts": 1,
@@ -202,15 +271,15 @@
       "_items": [
          {
             "text": "Rail noise adversely affects the health and quality of life of significant numbers of people.",
-            "_shouldBeSelected": false
+            "_shouldBeSelected": true
          },
          {
             "text": "Noise and vibration can have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity.",
-            "_shouldBeSelected": false
+            "_shouldBeSelected": true
          },
          {
             "text": "There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways.",
-            "_shouldBeSelected": false
+            "_shouldBeSelected": true
          },
          {
             "text": "Working on the railway is made easier by the multitude of noise sources.",
@@ -219,10 +288,10 @@
       ],
       "_feedback": {
          "title": "Feedback",
-         "correct": "<h3>That\u2019s right. </h3><p>Feedback ...</p>",
+         "correct": "<h3>That\u2019s right. </h3><p>Noise, defined as unwanted sound, affects rail’s customers, neighbours and colleagues. Vibration can cause harmful effects on people and damage infrastructure, such as buildings. </p><p>Evidence shows that noise adversely affects health and quality of life, excessive noise can have detrimental effects on mental health. Noise and vibration can also have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity. </p><p>There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways. These most often relate to diesel trains idling and moving within depots, particularly at night and early in the morning, as well as train horns and PA announcements. </p><p>Working on the railway can be physically and mentally demanding; the multitude of noise sources can add to these demands. </p>",
          "_incorrect": {
-            "notFinal": "<h3>That\u2019s not quite right. </h3><p>Please try again.</p>",
-            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Feedback ...</p>"
+            "notFinal": "<h3>That\u2019s not right. </h3><p>Please try again.</p>",
+            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Noise, defined as unwanted sound, affects rail’s customers, neighbours and colleagues. Vibration can cause harmful effects on people and damage infrastructure, such as buildings. </p><p>Evidence shows that noise adversely affects health and quality of life, excessive noise can have detrimental effects on mental health. Noise and vibration can also have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity. </p><p>There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways. These most often relate to diesel trains idling and moving within depots, particularly at night and early in the morning, as well as train horns and PA announcements. </p><p>Working on the railway can be physically and mentally demanding; the multitude of noise sources can add to these demands. </p>"
          }
       },
       "_pageLevelProgress": {
@@ -252,16 +321,12 @@
             "text": "Choose the best definition for Biodiversity Net Gain (BNG).",
             "_options": [
                {
-                  "text": "Rail noise adversely affects the health and quality of life of significant numbers of people.",
+                  "text": "Biodiversity net gain delivers measurable improvements for biodiversity by removing buildings and other structures in order to re-wild the land.",
+                  "_isCorrect": false
+               },
+               {
+                  "text": "Biodiversity net gain delivers measurable improvements for biodiversity by creating or enhancing habitats in association with development.",
                   "_isCorrect": true
-               },
-               {
-                  "text": "Rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature.",
-                  "_isCorrect": false
-               },
-               {
-                  "text": "Developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.",
-                  "_isCorrect": false
                }
             ]
          },
@@ -269,16 +334,12 @@
             "text": "What has the government said about rail and BNG?",
             "_options": [
                {
-                  "text": "Rail noise adversely affects the health and quality of life of significant numbers of people.",
+                  "text": "Rail is not taking its responsibilities regarding BNG seriously.",
                   "_isCorrect": false
                },
                {
                   "text": "Rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature.",
                   "_isCorrect": true
-               },
-               {
-                  "text": "Developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.",
-                  "_isCorrect": false
                }
             ]
          },
@@ -286,15 +347,11 @@
             "text": "Which of these actions will help rail to support BNG?",
             "_options": [
                {
-                  "text": "Rail noise adversely affects the health and quality of life of significant numbers of people.",
+                  "text": "Providing recycling facilities and using clear, consistent signs that promote sustainable decisions.",
                   "_isCorrect": false
                },
                {
-                  "text": "Rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature.",
-                  "_isCorrect": false
-               },
-               {
-                  "text": "Developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.",
+                  "text": "Developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan.",
                   "_isCorrect": true
                }
             ]
@@ -302,10 +359,10 @@
       ],
       "_feedback": {
          "title": "Feedback",
-         "correct": "<h3>That\u2019s right. </h3><p>Feedback ...</p>",
+         "correct": "<h3>That\u2019s right. </h3><p>Net Biodiversity Gain is a strategy to develop land and contribute to the recovery of nature. It is a way of making sure the habitat for wildlife is in a better state than it was before development.</p><p>A 2018 independent review of Network Rail’s approach to vegetation management in England and Wales states that the Government believes rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature. </p><p>As one of the country’s largest public landowners, Network Rail is developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.</p>",
          "_incorrect": {
-            "notFinal": "<h3>That\u2019s not quite right. </h3><p>Please try again.</p>",
-            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Feedback ...</p>"
+            "notFinal": "<h3>That\u2019s not right. </h3><p>Please try again.</p>",
+            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Net Biodiversity Gain is a strategy to develop land and contribute to the recovery of nature. It is a way of making sure the habitat for wildlife is in a better state than it was before development.</p><p>A 2018 independent review of Network Rail’s approach to vegetation management in England and Wales states that the Government believes rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature. </p><p>As one of the country’s largest public landowners, Network Rail is developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.</p>"
          }
       },
       "_pageLevelProgress": {

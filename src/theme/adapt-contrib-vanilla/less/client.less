@@ -82,13 +82,86 @@ html, body {
 // -----------------------------------
 
 .hotgraphic__pin:not(.has-pin-image) {
-    background-color: @primary-colour!important;
-    color: @white!important;
+    // background-color: @primary-colour!important;
+    // color: @white!important;
 
     transform: translate(-50%,-50%);
 
+    &:hover {
+
+    }
+
     &.is-visited {
-        background-color: @primary-colour-visited!important;
+        // background-color: @primary-colour-visited!important;
+    }
+}
+
+.hotgraphic__pin .icon:before {
+    // content: "\e908"!important; //\e948 info - \e922 target
+}
+
+
+.hotgraphic__pin:not(.has-pin-image):nth-of-type(1), .hotgraphic__pin:not(.has-pin-image):nth-of-type(2),
+.hotgraphic__pin:not(.has-pin-image):nth-of-type(3), .hotgraphic__pin:not(.has-pin-image):nth-of-type(4),
+.hotgraphic__pin:not(.has-pin-image):nth-of-type(5), .hotgraphic__pin:not(.has-pin-image):nth-of-type(6),
+.hotgraphic__pin:not(.has-pin-image):nth-of-type(7) {
+    .icon{
+        &:before {
+            font-weight: bold;
+            font-family: 'Brutal Bold';
+            width: 1rem;
+            height: 1rem;
+            transform: translate(0%,-25%);
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(1) {
+    .icon{
+        &:before {
+            content: "1";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(2) {
+    .icon{
+        &:before {
+            content: "2";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(3) {
+    .icon{
+        &:before {
+            content: "3";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(4) {
+    .icon{
+        &:before {
+            content: "4";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(5) {
+    .icon{
+        &:before {
+            content: "5";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(6) {
+    .icon{
+        &:before {
+            content: "6";
+        }
+    }
+}
+.hotgraphic__pin-item:nth-of-type(7) {
+    .icon{
+        &:before {
+            content: "7";
+        }
     }
 }
 
@@ -332,10 +405,6 @@ html, body {
     // name, duration, delay, iteration count, direction, timing-function, fill mode
 }
 
-    
-.hotgraphic__pin .icon:before {
-    content: "\e908"!important; //\e948 info - \e922 target
-}
 
 .notify__content {
     padding: 2rem;

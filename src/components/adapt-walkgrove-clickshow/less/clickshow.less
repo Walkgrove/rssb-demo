@@ -32,6 +32,7 @@
         margin: 1rem 0;
 
         &.is-visited {
+            background-color: @rssb-cloud;
             .right {
                 display: flex;
                 opacity: 1;
@@ -56,20 +57,43 @@
         align-items: stretch;
         justify-content: stretch;
 
+        position: relative;
+
+
         &.left {
             cursor: pointer;
+
+            max-width: 35%;
+            @media (max-width: @device-width-small) {
+                max-width: 100%;
+            }
 
             button {
                 color: @item-color;
                 background-color: @item-color-inverted;
+                z-index: 2;
+            }
+
+            img {
+                object-fit: contain;
+                @media (max-width: @device-width-medium) {
+                    background-color: @rssb-turquoise!important;
+                }
+                @media (max-width: @device-width-small) {
+                    background-color: transparent!important;
+                }
             }
         }
         &.right {
             @media (max-width: @device-width-small) {
                 display: none;
             }
+
+            // max-width: 65%;
+
             opacity: 0; 
             flex: 1 1 auto;
+            overflow: hidden;
         }  
 
     }
@@ -84,6 +108,12 @@
         align-items: center;
         justify-content: center;
         display: flex;
+        flex-direction: column;
+
+        h3, p {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
         
         text-align: center;
 
@@ -91,14 +121,29 @@
         margin-left: 0.5rem;
         overflow: hidden;
 
-        @slant-width: 3rem;
-        padding-left: @slant-width;
+        @slant-width: 8rem;
+        padding-right: @slant-width;
+        @media (max-width: @device-width-medium) {
+            padding-left: 1rem;
+            text-align: left;
+            align-items: flex-start;
+        }
+        @media (max-width: @device-width-small) {
+            padding-right: 1rem;
+
+            h3, p {
+                margin-block-start: 0.75em;
+                margin-block-end: 0.75em;
+            }
+        }
+
+        position: relative;
 
         &:before {
             content: '';
             position: absolute;
             top: 0;
-            left: 0;
+            right: 0;
             width: @slant-width;
             height: 100%;
             background: @rssb-turquoise;
@@ -109,7 +154,11 @@
             -ms-transform: skew(-22deg);
             transform: skew(-22deg);
             z-index: 1;
-          }
+
+            @media (max-width: @device-width-small) {
+                display: none;
+            }
+        }
     }
 
     .column {
