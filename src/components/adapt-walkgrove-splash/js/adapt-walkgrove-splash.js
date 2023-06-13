@@ -17,6 +17,8 @@ define([
     postRender: function() {
       this.setReadyStatus();
       this.setCompletionStatus();
+
+      $('.nav__logo').addClass('is-hidden');
     },
 
     checkIfResetOnRevisit: function() {
@@ -38,6 +40,7 @@ define([
 
       //Adapt.router.navigateToHomeRoute();
       Backbone.history.navigate('#/id/co-01_01', {trigger: true});
+      $('.nav__logo').removeClass('is-hidden');
     }
 
   },

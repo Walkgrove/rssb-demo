@@ -71,20 +71,23 @@
         padding-left: 3rem;
         overflow: hidden;
 
+        min-height: 8rem;
+        justify-content: center;
+
         &:before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: @slant-width;
-            height: 100%;
+            height: 8rem;
             background: @item-color;
             -webkit-transform-origin: 100% 0;
             -ms-transform-origin: 100% 0;
             transform-origin: 100% 0;
             -webkit-transform: skew(-22deg);
             -ms-transform: skew(-22deg);
-            transform: skew(-22deg);
+            transform: skew(-22deg); //skew(-22deg) translate(-30%,0%)
             z-index: 1;
           }
 

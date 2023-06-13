@@ -39,7 +39,7 @@
       "_isOptional": true,
       "_graphic": {
          "large": "course/en/images/breaker1.png",
-         "small": "course/en/images/breaker1.png",
+         "small": "course/en/images/breaker1_mobile.png",
          "alt": ""
       },
       "_pageLevelProgress": {
@@ -97,7 +97,7 @@
       "_component": "timeline",
       "_classes": "",
       "_layout": "full",
-      "title": "Net Zero Carbon Rail",
+      "title": "How can rail make a difference?",
       "displayTitle": "",
       "body": "<h2>How can rail make a difference?</h2>",
       "instruction": "Scroll down to read more.",
@@ -142,7 +142,7 @@
       "title": "Seamless Journeys",
       "displayTitle": "Seamless Journeys",
       "body": "<p>Rail must fully integrate as part of a sustainable, joined-up transport system to support the shift of people and goods onto railways.</p>",
-      "instruction": "<p>Select the number to learn more.</p>",
+      "instruction": "<p>Select the numbers to learn more.</p>",
       "_canCycleThroughPagination": true,
       "_hidePagination": false,
       "_useGraphicsAsPins": false,
@@ -242,7 +242,7 @@
       "_isOptional": true,
       "_graphic": {
          "large": "course/en/images/breaker2.png",
-         "small": "course/en/images/breaker2.png",
+         "small": "course/en/images/breaker2_mobile.png",
          "alt": ""
       },
       "_pageLevelProgress": {
@@ -290,8 +290,8 @@
          "title": "Feedback",
          "correct": "<h3>That\u2019s right. </h3><p>Noise, defined as unwanted sound, affects rail’s customers, neighbours and colleagues. Vibration can cause harmful effects on people and damage infrastructure, such as buildings. </p><p>Evidence shows that noise adversely affects health and quality of life, excessive noise can have detrimental effects on mental health. Noise and vibration can also have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity. </p><p>There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways. These most often relate to diesel trains idling and moving within depots, particularly at night and early in the morning, as well as train horns and PA announcements. </p><p>Working on the railway can be physically and mentally demanding; the multitude of noise sources can add to these demands. </p>",
          "_incorrect": {
-            "notFinal": "<h3>That\u2019s not right. </h3><p>Please try again.</p>",
-            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Noise, defined as unwanted sound, affects rail’s customers, neighbours and colleagues. Vibration can cause harmful effects on people and damage infrastructure, such as buildings. </p><p>Evidence shows that noise adversely affects health and quality of life, excessive noise can have detrimental effects on mental health. Noise and vibration can also have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity. </p><p>There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways. These most often relate to diesel trains idling and moving within depots, particularly at night and early in the morning, as well as train horns and PA announcements. </p><p>Working on the railway can be physically and mentally demanding; the multitude of noise sources can add to these demands. </p>"
+            "notFinal": "<h3>That\u2019s not quite right. </h3><p>Please try again.</p>",
+            "final": "<h3>That\u2019s not right.</h3><p>Noise, defined as unwanted sound, affects rail’s customers, neighbours and colleagues. Vibration can cause harmful effects on people and damage infrastructure, such as buildings. </p><p>Evidence shows that noise adversely affects health and quality of life, excessive noise can have detrimental effects on mental health. Noise and vibration can also have a negative impact on local businesses, social infrastructure, heritage assets and biodiversity. </p><p>There are regular complaints about noise and vibration around depots, stations, at level crossings, and alongside the railways. These most often relate to diesel trains idling and moving within depots, particularly at night and early in the morning, as well as train horns and PA announcements. </p><p>Working on the railway can be physically and mentally demanding; the multitude of noise sources can add to these demands. </p>"
          }
       },
       "_pageLevelProgress": {
@@ -361,8 +361,8 @@
          "title": "Feedback",
          "correct": "<h3>That\u2019s right. </h3><p>Net Biodiversity Gain is a strategy to develop land and contribute to the recovery of nature. It is a way of making sure the habitat for wildlife is in a better state than it was before development.</p><p>A 2018 independent review of Network Rail’s approach to vegetation management in England and Wales states that the Government believes rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature. </p><p>As one of the country’s largest public landowners, Network Rail is developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.</p>",
          "_incorrect": {
-            "notFinal": "<h3>That\u2019s not right. </h3><p>Please try again.</p>",
-            "final": "<h3>Unfortunately, that\u2019s not quite right.</h3><p>Net Biodiversity Gain is a strategy to develop land and contribute to the recovery of nature. It is a way of making sure the habitat for wildlife is in a better state than it was before development.</p><p>A 2018 independent review of Network Rail’s approach to vegetation management in England and Wales states that the Government believes rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature. </p><p>As one of the country’s largest public landowners, Network Rail is developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.</p>"
+            "notFinal": "<h3>That\u2019s not quite right. </h3><p>Please try again.</p>",
+            "final": "<h3>That\u2019s not right.</h3><p>Net Biodiversity Gain is a strategy to develop land and contribute to the recovery of nature. It is a way of making sure the habitat for wildlife is in a better state than it was before development.</p><p>A 2018 independent review of Network Rail’s approach to vegetation management in England and Wales states that the Government believes rail has a huge amount to offer in terms of contributing to biodiversity net gain (BNG), helping the natural environment recover, and connecting people with nature. </p><p>As one of the country’s largest public landowners, Network Rail is developing a full biodiversity baseline, with habitat map and associated Biodiversity Action Plan, with progress to be reported annually.</p>"
          }
       },
       "_pageLevelProgress": {
@@ -384,7 +384,7 @@
       "_isOptional": true,
       "_graphic": {
          "large": "course/en/images/breaker3.png",
-         "small": "course/en/images/breaker3.png",
+         "small": "course/en/images/breaker3_mobile.png",
          "alt": ""
       },
       "_pageLevelProgress": {

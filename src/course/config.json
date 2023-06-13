@@ -10,7 +10,7 @@
     },
     "_accessibility": {
         "_isEnabled": true,
-        "_isSkipNavigationEnabled": true,
+        "_isSkipNavigationEnabled": false,
         "_ariaLevels": {
             "_menu": 1,
             "_menuGroup": 2,
